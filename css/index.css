@@ -206,4 +206,72 @@ footer nav a {
 }
 
 /* About Page Cascading Styles Sheet */
+/* About Navigation Styles */
+.about-header{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+.about-links{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.about-nav{
+    width:60%;
+    display: flex;
+    justify-content: space-between;
+}
+.about-nav a{
+    text-decoration: none;
+    color:black;
+}
+/* About Top Section Styles */
+.about-top-section{
+    border-bottom: 2px dotted black;
+}
+.about-top-section h1{
+    font-size: 1.2rem;
+    margin-top: 2%;
+}
+.about-top-section p{
+    margin-bottom: 2%;
+}
+/* About Middle Section Styles */
+.about-middle-section{
+    display: flex;
+    width: 100%;
 
+}
+.about-middle-section h2{
+    font-size: 1.2rem;
+}
+.about-middle-section img{
+    margin-top: 5%;
+}
+.about-middle1{
+    border-bottom: 2px dotted black;
+    margin-right: 1%;
+}
+.about-middle2{
+    border-bottom: 2px dotted black;
+    margin-left: 1%;
+}
+button{
+    padding: 2%;
+    border-radius: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 2px solid black;
+}
+/* About Bottom Section Styles */
+.about-bottom{
+    margin-top: 5%;
+}
+h3{
+    font-size: 1.2rem;
+}
+.about-bottom p{
+    margin-bottom: 5%;
+}
