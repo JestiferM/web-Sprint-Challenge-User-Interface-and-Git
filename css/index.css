@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -28,27 +28,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
+/* General Styles */
 * {
     box-sizing: border-box;
+    /* border: 1px solid black; */
+    max-width: 100%;
 }
 
 html, body {
@@ -65,7 +50,32 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/* Navigation Styles */
+header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 2%;
+}
+.links{
+    width: 63%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+}
+.cars{
+    padding: 2%;
+    margin: 0;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -82,7 +92,9 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: .9rem;
 }
 
 .middle-content {
@@ -93,6 +105,7 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    font-weight: 600;
 }
 
 .middle-content .boxes {
@@ -120,6 +133,7 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+    font-weight: 600;
 }
 
 .bottom-content .text-container:last-child {
