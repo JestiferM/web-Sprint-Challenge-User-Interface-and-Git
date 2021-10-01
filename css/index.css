@@ -53,18 +53,17 @@ p {
 /* Navigation Styles */
 header{
     display: flex;
-    align-items: flex-end;
     justify-content: center;
     padding: 2%;
 }
 .links{
-    width: 63%;
+    width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: baseline;
 }
 nav{
-    width: 70%;
+    width:60%;
     display: flex;
     justify-content: space-between;
 }
@@ -72,6 +71,9 @@ nav a{
     text-decoration: none;
     color:black;
 }
+
+/* Top Section Styles */
+
 .cars{
     padding: 2%;
     margin: 0;
@@ -96,6 +98,8 @@ nav a{
     font-weight: 600;
     font-size: .9rem;
 }
+
+/* Middle Section Styles */
 
 .middle-content {
     margin-bottom: 20px;
@@ -164,6 +168,9 @@ nav a{
     padding: 26%;
     background: dodgerblue;
 }
+
+/* Bottom Section Styles */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -190,10 +197,13 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: .9rem;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page Cascading Styles Sheet */
+
